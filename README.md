@@ -56,7 +56,7 @@ FreshGuard_IMCS/
 ### Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/freshguard-imcs.git
+git clone https://github.com/iabrarbajwa/freshguard-imcs.git
 cd freshguard-imcs
 
 python -m venv .venv
