@@ -1,0 +1,3 @@
+Model,Parameters_M,Test_Accuracy_%,Macro_F1
+ResNet-18,11.1827,99.3536,0.993
+ViT-Base/16,85.8079,98.338,0.9801

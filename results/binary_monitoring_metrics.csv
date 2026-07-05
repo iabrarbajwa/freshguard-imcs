@@ -1,0 +1,3 @@
+Model,Binary_Accuracy_%,False_Accept_%,False_Reject_%
+ResNet-18,99.8153,0.3656,0.0
+ViT-Base/16,99.169,1.0969,0.5597
