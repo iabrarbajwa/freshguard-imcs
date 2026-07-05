@@ -42,7 +42,6 @@ FreshGuard_IMCS/
 ├── Test Images/                        # Sample demo images
 ├── checkpoints/                        # Trained PyTorch weights
 ├── splits/                             # Dataset split CSV
-├── presentation/                       # Slides and script (PDF/PPTX)
 └── freshGuardvenv/                     # Local venv (excluded from repo)
 ```
 
