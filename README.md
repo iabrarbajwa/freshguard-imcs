@@ -136,10 +136,6 @@ ResNet-18 achieves the best balance of accuracy, speed, and model size for deplo
 - REST API wrapper for integration with sorting-line hardware
 - Expand fruit catalog and multi-defect grading (bruise, mold, ripeness)
 
-## License
-
-Academic project — contact the author for reuse permissions.
-
 ## Author
 
 Abrar Mustafa — IMCS FreshGuard project.
