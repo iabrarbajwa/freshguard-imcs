@@ -15,7 +15,7 @@ FreshGuard addresses quality inspection in food supply chains by training image 
 - **Two model backends:** ResNet-18 and ViT-Base/16 (via `timm`)
 - **Streamlit dashboard** with image upload, top-k predictions, and metrics view
 - **Training notebook** (`FreshGuard_IMCS.ipynb`) with full Colab-compatible pipeline
-- **Group split CSV** for reproducible evaluation (stored locally, not in repo)
+- **Group split CSV** for reproducible evaluation
 - **Sample test images** for quick demo without the full dataset
 
 ## Technologies
@@ -40,9 +40,10 @@ FreshGuard_IMCS/
 │   ├── model_comparison.csv
 │   └── binary_monitoring_metrics.csv
 ├── Test Images/                        # Sample demo images
-├── checkpoints/                        # Trained weights (not in repo)
-├── splits/                             # Dataset split file (not in repo)
-└── freshGuardvenv/                     # Local venv (not in repo)
+├── checkpoints/                        # Trained PyTorch weights
+├── splits/                             # Dataset split CSV
+├── presentation/                       # Slides and script (PDF/PPTX)
+└── freshGuardvenv/                     # Local venv (excluded from repo)
 ```
 
 ## Installation
@@ -78,15 +79,13 @@ pip install -r requirements.txt
 
 ### Model Checkpoints
 
-Checkpoints are **not included** in this repository (~388 MB total). After training (see notebook) or obtaining weights separately, place them in:
+Checkpoints are included in `checkpoints/` (large files stored via Git LFS):
 
 ```text
 checkpoints/
 ├── resnet18_clean_best.pt
 └── vit_base_clean_best.pt
 ```
-
-Optionally place `splits/freshguard_clean_group_split.csv` locally so the dashboard can load class names from the split file.
 
 ## Usage
 
