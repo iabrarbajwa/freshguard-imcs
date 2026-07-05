@@ -15,8 +15,3 @@ kaggle.json
 *.key
 secrets/
 credentials.json
-
-# Presentations
-*.pptx
-*Presentation*.pdf
-*presentation_script*.pdf
